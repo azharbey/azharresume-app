@@ -1,3 +1,5 @@
+import React from "react";
+
 import { useState } from "react";
 import { About } from "./component/About";
 import { ContactUs } from "./component/ContactUs";

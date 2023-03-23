@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+//import { Typewriter } from "react-simple-typewriter";
 import { Button } from "./Button";
 
 export const HomeSection = () => {
