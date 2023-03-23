@@ -3,7 +3,7 @@ import { About } from "./component/About";
 import { ContactUs } from "./component/ContactUs";
 import { Footer } from "./component/Footer";
 import { Header } from "./component/Header";
-import { HomeSection1 } from "./component/HomeSection1";
+import { HomeSection } from "./component/HomeSection";
 import { Sidebar } from "./component/Sidebar";
 import { Skills } from "./component/Skills";
 import { WhatIdo } from "./component/WhatIdo";
@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Header toggleSidebar={toggleSidebar} />
-      <HomeSection1 />
+      <HomeSection />
       <About />
       <WhatIdo />
       <Skills />

@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { Button } from "./Button";
 
-export const HomeSection1 = () => {
+export const HomeSection = () => {
   return (
     <section className='bg-[url("/azhar.jpg")] h-screen bg-cover bg-center bg-fixed flex items-center'>
       <div className="container mx-auto px-4">
@@ -38,4 +38,4 @@ export const HomeSection1 = () => {
   );
 };
 
-export default HomeSection1;
+export default HomeSection;
