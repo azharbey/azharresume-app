@@ -33,7 +33,7 @@ export const WhatIdo = () => {
           </p>
           <p>
             Product Owner of the employee salary slip, PF & other benefits
-            project to integrate with SAP through WEB API's and authenticating
+            project to integrate with SAP through WEB APIs and authenticating
             employees with Active Directory. Product Owner of the QMS (Queue
             Management System) is designed to monitor the IN/OUT of the empty &
             Loaded vehicles to the plants to calculate the time consumption to

@@ -8,7 +8,7 @@ export const HomeSection1 = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-[450px] text-white flex flex-col gap-[40px]">
           <div>
-            <h1 className="text-3xl"> I'm Azhar Mahmood</h1>
+            <h1 className="text-3xl"> I am Azhar Mahmood</h1>
             <h4 className="text-2xl mt-3">
               <Typewriter
                 options={{

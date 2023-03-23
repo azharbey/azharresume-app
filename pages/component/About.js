@@ -57,7 +57,7 @@ export const About = () => {
           </div>
           <div className="max-w-[800px] ">
             <h2 className="font-bold mt-16 mb-5">
-              I'm Azhar Software Engineer
+              I am Azhar Software Engineer
             </h2>
             <p className="text-gray-600">
               I have 14+ years of experience in the Software Engineering,
