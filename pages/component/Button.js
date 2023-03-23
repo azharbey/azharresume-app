@@ -8,3 +8,5 @@ export const Button = ({ text, link }) => {
     </a>
   );
 };
+
+export default Button;

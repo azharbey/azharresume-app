@@ -37,3 +37,5 @@ export const HomeSection1 = () => {
     </section>
   );
 };
+
+export default HomeSection1;

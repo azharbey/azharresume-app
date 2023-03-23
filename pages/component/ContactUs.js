@@ -41,3 +41,5 @@ export const ContactUs = () => {
     </section>
   );
 };
+
+export default ContactUs;

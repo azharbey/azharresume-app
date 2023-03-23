@@ -34,3 +34,5 @@ export const Sidebar = ({ isOpen, toggleSidebar }) => {
     </div>
   );
 };
+
+export default Sidebar;

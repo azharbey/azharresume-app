@@ -8,3 +8,5 @@ export const Heading = ({ title }) => {
     </div>
   );
 };
+
+export default Heading;

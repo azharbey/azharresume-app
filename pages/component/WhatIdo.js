@@ -105,3 +105,5 @@ export const WhatIdo = () => {
     </section>
   );
 };
+
+export default WhatIdo;

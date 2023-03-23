@@ -40,3 +40,5 @@ export const Header = ({ toggleSidebar }) => {
     </section>
   );
 };
+
+export default Header;
