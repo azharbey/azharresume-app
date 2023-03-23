@@ -6,6 +6,7 @@ import { TbPacman } from "react-icons/tb";
 import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
 import { Button } from "./Button";
+import Image from "next/image";
 
 export const About = () => {
   return (
@@ -14,7 +15,14 @@ export const About = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
         <div>
-          <img className="w-[400px]" src="/azhar.jpg" alt="" />
+          {/* <img className="w-[400px]" src="/azhar.jpg" alt="" /> */}
+          <Image
+            className="w-[400px]"
+            src="/azhar.jpg"
+            width={400}
+            height={400}
+            alt=""
+          />
         </div>
         <div>
           <div className="flex items-center justify-between w-[300px]">
