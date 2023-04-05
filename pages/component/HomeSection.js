@@ -31,7 +31,7 @@ export const HomeSection = () => {
           <div>
             <p>I am a Soft Engineer with the experience of 14+ years</p>
 
-            <Button link="#" text="Learn More" />
+            <Button link="#About" text="Learn More" />
           </div>
         </div>
       </div>

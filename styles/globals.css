@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+       @apply scroll-smooth;
+    }
+}
+
 @layer components {
     .btn{
         @apply bg-[#06b97a] text-white py-2 px-4 rounded inline-block mt-10 font-medium border 

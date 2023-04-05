@@ -5,8 +5,11 @@ import { BsGlobe2 } from "react-icons/bs";
 import { TbPacman } from "react-icons/tb";
 import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 import { Button } from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const About = () => {
   return (
@@ -25,7 +28,7 @@ export const About = () => {
           />
         </div>
         <div>
-          <div className="flex items-center justify-between w-[300px]">
+          <div className="flex items-center justify-between w-[400px]">
             <div className="flex flex-col gap-6">
               <div className="flex gap-4 items-center font-medium">
                 <FiBookOpen className="text-[#06b97a] text-[22px]" />
@@ -38,6 +41,14 @@ export const About = () => {
               <div className="flex gap-4 items-center font-medium">
                 <HiOutlineMail className="text-[#06b97a] text-[22px]" />
                 Email
+              </div>
+              <div className="flex gap-4 items-center font-medium">
+                <FaLinkedinIn className="text-[#06b97a] text-[22px]" />
+                Linkedin
+              </div>
+              <div className="flex gap-4 items-center font-medium">
+                <FiGithub className="text-[#06b97a] text-[22px]" />
+                Github
               </div>
               <div className="flex gap-4 items-center font-medium">
                 <TbPacman className="text-[#06b97a] text-[22px]" />
@@ -54,11 +65,36 @@ export const About = () => {
               <div>:</div>
               <div>:</div>
               <div>:</div>
+              <div>:</div>
+              <div>:</div>
             </div>
-            <div className="flex flex-col gap-6 text-gray-600">
+            <div className="flex flex-col py-4 px-10 gap-6 text-gray-600">
               <div>Fast University</div>
-              <div>www.azharmahmood.com</div>
+              <Link
+                className="hover:font-normal underline text-blue-400 font-semibold hover:text-[#06b97a] transition duration-200 "
+                href="https://azharresume-8khwkwysv-azharbey.vercel.app"
+                target="_blank"
+                scroll={false}
+              >
+                azhar-Profile
+              </Link>
+
               <div>iamazhar@gmail.com</div>
+              {/* <div>https://www.linkedin.com/in/azhar-mahmood-bey/</div> */}
+              <Link
+                className="hover:font-normal underline text-blue-400 font-semibold hover:text-[#06b97a] transition duration-200 "
+                href="https://www.linkedin.com/in/azhar-mahmood-bey/"
+                target="_blank"
+              >
+                azhar-Linkedin
+              </Link>
+              <Link
+                className="hover:font-normal underline text-blue-400 font-semibold hover:text-[#06b97a] transition duration-200 "
+                href="https://github.com/azharbey"
+                target="_blank"
+              >
+                azhar-Github
+              </Link>
               <div>Movies, Cricket, Football</div>
               <div>Lahore, Punjab, Pakistan</div>
             </div>
